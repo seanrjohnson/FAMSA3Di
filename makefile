@@ -1,4 +1,4 @@
-all: deflate famsa 
+all: deflate famsa3Di  
 
 deflate: 
 	$(MAKE) -C libs/libdeflate
@@ -226,7 +226,7 @@ endif
 .cpp.o:
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-famsa: deflate src/famsa.o $(COMMON_OBJS) $(LCS_OBJS) $(UTILS_OBJS)
+famsa3Di: deflate src/famsa.o $(COMMON_OBJS) $(LCS_OBJS) $(UTILS_OBJS)
 	$(CXX) $(CLINK) -o $@ src/famsa.o $(COMMON_OBJS) $(LCS_OBJS) $(UTILS_OBJS) $(LIB_FILES)
 
 clean:
@@ -237,5 +237,5 @@ clean:
 	-rm src/utils/*.o
 	-rm src/*.o
 	-rm libs/mimalloc/*.o
-	-rm famsa
+	-rm famsa3Di
 
