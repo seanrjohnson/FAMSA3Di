@@ -2,7 +2,7 @@
 
 This is a modified version of FAMSA [https://github.com/refresh-bio/FAMSA](https://github.com/refresh-bio/FAMSA) where the only change is to replace the amino acid substitution matrix with the 3Di substitution matrix.
 
-You can use it with the the `foldseek2fasta.py` script from esmologs (https://github.com/seanrjohnson/esmologs/tree/main/src/esmologs)[https://github.com/seanrjohnson/esmologs/tree/main/src/esmologs] to make 3Di MSAs.
+You can use it with the the `foldseek2fasta.py` script from esmologs [https://github.com/seanrjohnson/esmologs/tree/main/src/esmologs](https://github.com/seanrjohnson/esmologs/tree/main/src/esmologs) to make 3Di MSAs.
 
 # downloading and compiling
 
